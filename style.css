@@ -1,0 +1,81 @@
+/* ========== Global Styles ========== */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF8E3;
+    color: #683817;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== Header ========== */
+header {
+    background: linear-gradient(90deg, #FC6719, #E11383);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Headings ========== */
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FC6719;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #E11383;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #683817;
+}
+
+/* ========== Footer ========== */
+footer {
+    background-color: #683817;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #FC6719;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
